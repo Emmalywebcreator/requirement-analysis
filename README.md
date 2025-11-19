@@ -8,7 +8,7 @@ Through a series of well-defined tasks, you will create a detailed blueprint of 
 This project simulates a real-world development scenario, emphasizing clarity, precision, and structure in defining requirements to set the stage for successful project execution.
 
 
-## Importance of Requirement Analysis
+## Why is Requirement Analysis Important
 
 The **Requirement Analysis** phase is a critical cornerstone of the Software Development Life Cycle (SDLC) and provides the foundational blueprint for a successful project. Here are three key reasons why it is essential:
 
