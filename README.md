@@ -106,6 +106,7 @@ Here is an example of Acceptance Criteria for a user story related to a booking 
 *   **AND** the user remains on the checkout page,
 *   **AND** the booking is not confirmed.
 
+## Use Case Diagrams.
 
 # Learning Objective
 The objective of this project is to enhance a professional developer’s ability to:
