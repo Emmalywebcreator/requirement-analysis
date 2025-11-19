@@ -37,6 +37,76 @@ The artifacts produced during this phase (like the Software Requirement Specific
 + Requirement Analysis and Modeling
 + Requirement Validation.
 
+## Types of Requirements
+
+Requirement analysis involves categorizing the specific types of needs that the software solution must address. These are typically organized into the following classifications:
+
+### Business Requirements
+These are high-level goals and objectives that define *why* the project is necessary and the expected value it will deliver to the organization.
+
+*   **Focus:** Organizational outcomes and strategic objectives.
+*   **Example:** "Increase online sales revenue by 15% within the next fiscal year."
+
+### Stakeholder Requirements
+These requirements capture the specific needs and expectations of different user groups or individuals who will interact with the system or have an interest in its outcome.
+
+*   **Focus:** Needs of specific user groups.
+*   **Example:** "The HR manager must be able to export employee data to a CSV format."
+
+### Solution Requirements
+These detail the specific characteristics and functions the software must possess to satisfy the business and stakeholder needs. This category is further divided:
+
+*   **Functional Requirements:** Define what the system *must do* (specific behaviors and functions).
+    *   **Example:** "The system shall validate user input for all mandatory fields upon form submission."
+*   **Non-Functional Requirements (NFRs):** Define *how* the system should perform, focusing on quality attributes and constraints (performance, security, usability, etc.).
+    *   **Example:** "The application shall be available 99.9% of the time during business hours."
+
+### Transition Requirements
+These are temporary requirements needed only to facilitate the smooth migration from the old system or process to the new one. They are discarded once the implementation is complete.
+
+*   **Focus:** Data migration, training, and deployment readiness.
+*   **Example:** "A data migration script must be executed to transfer all legacy customer records to the new database format."
+
+## Acceptance Criteria
+
+Acceptance Criteria (AC) are a crucial component of effective Requirement Analysis and agile development practices. They are predefined standards or conditions that a software feature or function must meet to be considered complete and accepted by the user, product owner, or stakeholder.
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+Acceptance criteria transform vague requirements into precise, verifiable statements, serving several key functions:
+
+*   **Clarity and Shared Understanding:** AC provide a clear, unambiguous definition of "Done" for both the development team and the stakeholders, ensuring everyone is aligned on the expected outcome.
+*   **Precise Scope Definition:** They set clear boundaries for what the feature includes, preventing scope creep and allowing developers to know exactly when their work is finished.
+*   **Basis for Testing:** AC are written in a way that makes them directly testable. Quality assurance (QA) teams use these exact criteria to design test cases and validate the functionality during the testing phase.
+*   **Risk Mitigation:** By clarifying expectations upfront, AC reduce the risk of late-stage misunderstandings, rework, and project delays.
+
+### Example: Checkout Feature in a Booking Management System
+
+Here is an example of Acceptance Criteria for a user story related to a booking management system's checkout functionality.
+
+**User Story:**
+> As a customer, I want to securely pay for my booking so that I can confirm my reservation.
+
+**Acceptance Criteria:**
+
+*   **GIVEN** the user has selected a booking and proceeded to the checkout page,
+*   **AND** the user enters valid credit card details,
+*   **WHEN** the user clicks the "Confirm Booking" button,
+*   **THEN** the system processes the payment successfully,
+*   **AND** displays a "Booking Confirmed" success message,
+*   **AND** sends a confirmation email to the user's provided email address,
+*   **AND** debits the correct amount from the user's card.
+
+---
+
+*   **GIVEN** the user has selected a booking and proceeded to the checkout page,
+*   **AND** the user enters invalid or incomplete payment details,
+*   **WHEN** the user clicks the "Confirm Booking" button,
+*   **THEN** the system displays a relevant error message (e.g., "Invalid card number" or "Payment failed"),
+*   **AND** the user remains on the checkout page,
+*   **AND** the booking is not confirmed.
+
+
 # Learning Objective
 The objective of this project is to enhance a professional developer’s ability to:
 
