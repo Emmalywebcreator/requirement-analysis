@@ -30,6 +30,13 @@ The artifacts produced during this phase (like the Software Requirement Specific
 
 *   **Benefit:** Fosters better team alignment and communication, improves the efficiency and quality of subsequent design and testing efforts, and ensures the project stays on track toward a unified goal.
 
+## Key Activities in Requirement Analysis.
++ Requirement Gathering
++ Requirement Elicitation
++ Requirement Documentation
++ Requirement Analysis and Modeling
++ Requirement Validation.
+
 # Learning Objective
 The objective of this project is to enhance a professional developer’s ability to:
 
